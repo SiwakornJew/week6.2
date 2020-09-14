@@ -6,9 +6,9 @@ int main()
 	cin >> a;
 	if (a <= 15)
 	{
-		for (i = 1; i <= a; i++)
+		for (i = 0; i <= a; i++)
 		{
-			for (j = 1; j <= a; j++)
+			for (j = 0; j <= a; j++)
 			{
 				if (i == 1 || i == a || j == 1 || j == a)
 					printf("%X ", a);
